@@ -15,7 +15,7 @@ func _connected_ok():
 	register_player(get_tree().get_network_unique_id())
 	get_tree().get_root().get_node("Lobby").queue_free()
 
-func register_player(player_id):
+remote func register_player(player_id):
 	var ship_instance = ship.instance()
 	
 	ship_instance.set_network_master(player_id)
@@ -32,7 +32,7 @@ func on_host_game():
 	var host = NetworkedMultiplayerENet.new()
 	host.create_server(PORT, MAX_PLAYERS)
 	print("----")
-	print(host.get_peer_address(1))
+	print(IP.get_local_addresses())
 	print("----")
 	get_tree().set_network_peer(host)
 	

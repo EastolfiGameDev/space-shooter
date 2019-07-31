@@ -1,9 +1,5 @@
 extends Node
 
-func _ready():
-	pass
-
-
 func _on_HostGameButton_pressed():
 	ConnectionManager.on_host_game()
 

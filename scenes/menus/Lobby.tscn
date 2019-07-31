@@ -54,6 +54,7 @@ text = "IP address of the server:"
 margin_left = 160.0
 margin_right = 218.0
 margin_bottom = 24.0
+text = "127.0.0.1"
 
 [node name="JoinGameButton" type="Button" parent="VBoxContainer/VBoxContainer2"]
 margin_top = 46.0

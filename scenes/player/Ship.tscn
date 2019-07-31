@@ -6,6 +6,7 @@
 [sub_resource type="CircleShape2D" id=1]
 
 [node name="Ship" type="RigidBody2D"]
+position = Vector2( 429.062, 211.946 )
 gravity_scale = 0.0
 script = ExtResource( 1 )
 __meta__ = {

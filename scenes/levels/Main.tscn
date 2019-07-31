@@ -5,4 +5,4 @@
 [node name="Main" type="Node"]
 
 [node name="Ship" parent="." instance=ExtResource( 1 )]
-position = Vector2( 315.355, 129.852 )
+position = Vector2( 412.346, 287.002 )
